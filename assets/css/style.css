@@ -64,13 +64,15 @@
 
 
 .box-shadow-full-skill {
-  padding: 1rem 0.5rem;
-  margin: 1rem;
+  /* padding: 0.5rem 0.5rem; */
+  /* margin: 1rem; */
   position: relative;
   background-color: #fff;
+  
   /* margin-bottom: 1.5rem; */
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  
 }
 
 @media (min-width: 768px) {
@@ -79,14 +81,18 @@
 
 
 .skill-swiper-image {
-  max-width: 100%;
-  height: auto;
-  max-height: 100px; 
+  max-height: 100px;
+  max-width: 100px;
+  margin: 1rem;
+  /* height: auto; */
+  /* max-height: 100px;  */
   
 }
 @media (max-width: 768px) {
   .skill-swiper-image {
     max-height: 80px;
+    /* height: auto; */
+    /* margin: 1rem; */
   }
 }
 
