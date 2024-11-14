@@ -58,10 +58,12 @@
   pointer-events: none;
 }
 
-.logo,.navbar,.breadcrumb-item,#cv_button{
+.logo,.navbar,.breadcrumb-item{
   pointer-events: auto;
 }
-
+#cv_button{
+  pointer-events: none;
+}
 
 .box-shadow-full-skill {
   padding: 1rem 0.5rem;
