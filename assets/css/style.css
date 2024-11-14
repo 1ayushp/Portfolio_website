@@ -549,14 +549,16 @@ a:hover {
 .button:hover {
   background-color: #0062d3;
   color: #fff;
-  transition: all 500ms ease;
+  
+  
+  transition: all 200ms ease;
 }
 
 .button-a {
   text-decoration: none;
   background-color: #0078ff;
   color: #fff;
-  border-color: #cde1f8;
+  /* border-color: #cde1f8; */
 }
 
 .button-big {
