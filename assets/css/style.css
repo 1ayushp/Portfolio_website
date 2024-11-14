@@ -53,13 +53,16 @@
 
   
 }
-.logo,.navbar,.breadcrumb-item,.cv_button{
+.logo,.navbar,.breadcrumb-item{
   pointer-events: auto;
 }
 
 
 #header{
   pointer-events: none;
+}
+#hero{
+  pointer-events: auto;
 }
 
 .box-shadow-full-skill {
