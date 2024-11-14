@@ -53,17 +53,17 @@
 
   
 }
-.logo,.navbar,.breadcrumb-item{
+.logo,.navbar,.breadcrumb-item,#cv_button{
   pointer-events: auto;
 }
 
 
-#header{
+#header,.hero-content{
   pointer-events: none;
 }
-#hero{
+/* #hero{
   pointer-events: auto;
-}
+} */
 
 .box-shadow-full-skill {
   padding: 1rem 0.5rem;
@@ -177,7 +177,7 @@ a:hover {
 .box-shadow-a,
 .button:hover {
   text-decoration: none;
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 3px var(--main-blue);
 }
 
 .display-5 {
