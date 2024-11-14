@@ -55,15 +55,15 @@
 }
 
 #header,.hero-content{
-  pointer-events: auto;
+  pointer-events: none;
 }
 
 .logo,.navbar,.breadcrumb-item{
   pointer-events: auto;
 }
-/* #cv_button{
+#cv_button{
   pointer-events: auto;
-} */
+}
 
 .box-shadow-full-skill {
   padding: 1rem 0.5rem;
