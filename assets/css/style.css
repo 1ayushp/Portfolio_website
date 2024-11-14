@@ -62,7 +62,7 @@
   pointer-events: auto;
 }
 #cv_button{
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .box-shadow-full-skill {
