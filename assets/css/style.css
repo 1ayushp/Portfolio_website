@@ -53,15 +53,16 @@
 
   
 }
-
-#header,.hero-content{
-  pointer-events: none;
-}
-
 .logo,.navbar,.breadcrumb-item{
   pointer-events: auto;
 }
-#cv_button{
+
+
+#header, .hero-content {
+  pointer-events: none;
+}
+
+.hero-content #cv_button {
   pointer-events: auto;
 }
 
