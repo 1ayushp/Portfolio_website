@@ -58,7 +58,7 @@
 }
 
 
-#header, .hero-content{
+#header{
   pointer-events: none;
 }
 
