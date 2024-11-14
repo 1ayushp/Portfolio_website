@@ -58,7 +58,7 @@
   pointer-events: none;
 }
 
-.logo,.navbar,.breadcrumb-item{
+.logo,.navbar,.breadcrumb-item,#cv_button{
   pointer-events: auto;
 }
 
